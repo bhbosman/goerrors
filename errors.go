@@ -6,7 +6,8 @@ import (
 )
 
 var NotImplemented error = errors.New("not implemented")
-var InvalidParam error = errors.New("invalid param")
+
+//var InvalidParam error = errors.New("invalid param")
 var TimeOut error = errors.New("invalid param")
 var InvalidType error = errors.New("not implemented")
 var InvalidSignature error = errors.New("InvalidSignature")
