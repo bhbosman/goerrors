@@ -15,9 +15,6 @@ var InvalidState error = errors.New("InvalidState")
 var InvalidSequenceNumber error = errors.New("InvalidSequenceNumber")
 var DuplicateKey error = errors.New("DuplicateKey")
 
-const BottomStackName = "BottomStack"
-const TopStackName = "TopStack"
-
 type InvalidParamError struct {
 	ParameterName string
 	Message       string
