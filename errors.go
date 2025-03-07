@@ -4,6 +4,7 @@ import (
 	"errors"
 )
 
+// comment
 var NotImplemented error = errors.New("not implemented")
 
 var InvalidParam error = errors.New("invalid param")
